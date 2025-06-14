@@ -1,0 +1,17 @@
+# Ignore node modules and logs
+node_modules/
+*.log
+
+# Ignore screenshots and user data dirs
+debug/
+screenshots/
+.admin-user-data-dir*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Playwright output
+playwright-report/
+
+*.env
